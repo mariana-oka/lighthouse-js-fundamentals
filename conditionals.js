@@ -1,3 +1,4 @@
+
 // Weather conditional clothing
 
 const temperature = -6;
@@ -29,6 +30,16 @@ if (!raining) {
 }
 
 // Voting eligibility 
+
+const isCitizen = true;
+const age = 26;
+
+if (isCitizen && age > 18) {
+  console.log("You are eligible to vote. 😀");
+}
+
+
+// Which school to go? 
 
 const isCitizen = true;
 const age = 26;
